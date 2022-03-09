@@ -7,15 +7,22 @@
 
 <h2>Cuisine Details</h2>
 <hr />
-<h3>@Html.DisplayNameFor(model => model.cuisineName): @Html.DisplayFor(model => model.cuisineName)</h3>
-
+<h4>@Html.DisplayFor(model => model.cuisineName) Restaurants</h4>
 @foreach(Restaurant restaurant in Model.Restaurants)
 {
-  <li>@Html.ActionLink($"{restaurant.restaurantName}", "Details", "Restaurants", new { id = restaurant.restaurantId })</li>
+  <li class="listItem">@Html.ActionLink($"{restaurant.restaurantName}", "Details", "Restaurants", new { id = restaurant.restaurantId })</li>
 }
-
-<p>@Html.ActionLink("Edit Cuisine", "Edit", new { id = Model.cuisineId })</p>
-<p>@Html.ActionLink("Delete Cuisine", "Delete", new { id = Model.cuisineId })</p>
-<p>@Html.ActionLink("Back to List", "Index")</p>
-<p>@Html.ActionLink("Add new restaurant", "Create", "Restaurants")</p>
+<hr />
+<div class="card">
+  <div class="row">
+    <div class="col-md-6">
+      <p class="details">@Html.ActionLink("Edit Cuisine", "Edit", new { id = Model.cuisineId })</p>
+      <p class="details">@Html.ActionLink("Delete Cuisine", "Delete", new { id = Model.cuisineId })</p>
+    </div>
+    <div class="col-md-6">
+      <p class="details">@Html.ActionLink("Back to List", "Index")</p>
+      <p class="details">@Html.ActionLink("Add new restaurant", "Create", "Restaurants")</p>
+    </div>
+  </div>
+</div>
 

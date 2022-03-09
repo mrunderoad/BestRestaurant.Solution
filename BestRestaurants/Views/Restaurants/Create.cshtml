@@ -7,13 +7,15 @@
 <h4>Add a new Restaurant here!</h4>
 @using (Html.BeginForm())
 {
-  @Html.LabelFor(model => model.restaurantName)
+  <h3>Restaurant Name:</h3>
   @Html.TextBoxFor(model => model.restaurantName)
-  @Html.LabelFor(model => model.restaurantAddress)
+  <h3>Restaurant Address:</h3>
   @Html.TextBoxFor(model => model.restaurantAddress)
-  @Html.LabelFor(model => model.restaurantNumber)
+  <h3>Restaurant Phone Number:</h3>
   @Html.TextBoxFor(model => model.restaurantNumber)
+  <h3>Add Restaurant to Cuisine:</h3>
   @Html.DropDownList("cuisineId")
+  <br>
   <input type="submit" value="Add new restaurant" />
 }
 

@@ -23,7 +23,6 @@ C:\Users\isaac\OneDrive\Restaurant.Solution\BestRestaurants\obj\Debug\net5.0\Raz
 C:\Users\isaac\OneDrive\Restaurant.Solution\BestRestaurants\obj\Debug\net5.0\Razor\Views\Restaurants\Details.cshtml.g.cs
 C:\Users\isaac\OneDrive\Restaurant.Solution\BestRestaurants\obj\Debug\net5.0\Razor\Views\Restaurants\Edit.cshtml.g.cs
 C:\Users\isaac\OneDrive\Restaurant.Solution\BestRestaurants\obj\Debug\net5.0\Razor\Views\Restaurants\Index.cshtml.g.cs
-C:\Users\isaac\OneDrive\Restaurant.Solution\BestRestaurants\obj\Debug\net5.0\Razor\Views\Shared\Footer.cshtml.g.cs
 C:\Users\isaac\OneDrive\Restaurant.Solution\BestRestaurants\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
 C:\Users\isaac\OneDrive\Restaurant.Solution\BestRestaurants\obj\Debug\net5.0\BestRestaurants.RazorTargetAssemblyInfo.cache
 C:\Users\isaac\OneDrive\Restaurant.Solution\BestRestaurants\obj\Debug\net5.0\BestRestaurants.RazorTargetAssemblyInfo.cs
@@ -50,3 +49,4 @@ C:\Users\isaac\OneDrive\Restaurant.Solution\BestRestaurants\bin\Debug\net5.0\Pom
 C:\Users\isaac\OneDrive\Restaurant.Solution\BestRestaurants\obj\Debug\net5.0\BestRestaurants.Views.pdb
 C:\Users\isaac\OneDrive\Restaurant.Solution\BestRestaurants\obj\Debug\net5.0\BestRestaurants.csproj.CopyComplete
 C:\Users\isaac\OneDrive\Restaurant.Solution\BestRestaurants\obj\Debug\net5.0\BestRestaurants.genruntimeconfig.cache
+C:\Users\isaac\OneDrive\Restaurant.Solution\BestRestaurants\obj\Debug\net5.0\Razor\Views\Shared\Header.cshtml.g.cs

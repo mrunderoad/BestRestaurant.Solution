@@ -1,9 +1,44 @@
-div#footer {
+div#header {
   position:fixed;
-  bottom:0px;
+  top:0px;
   left:0px;
   width:100%;
   color:#CCC;
   background:#333;
   padding:8px;
+  text-align: center;
+}
+
+.details {
+  text-align: center;
+}
+
+.btn-warning {
+  margin-left: 5px;
+}
+
+.btn-warning:hover {
+  color: rgb(255, 0, 0);
+}
+
+.cuisineCard {
+  margin-left: 25vw;
+  margin-right: 25vw;
+}
+
+.cuisine {
+  text-align: center;
+}
+
+ul {
+  list-style-position: inside;
+}
+
+.listItem {
+  text-align: center;
+  margin-right: 3vw;
+}
+
+.homePage {
+  text-align: center;
 }

@@ -5,16 +5,17 @@
 @using BestRestaurants.Models;
 @model List<BestRestaurants.Models.Restaurant>;
 
-<h1>Restaurants:</h1>
+<h1 class="cuisine">Restaurants:</h1>
 
 @if (@Model.Count == 0)
 {
-  <h3>No Restaurants have been added yet!</h3>
+  <h3 class="cuisine">No Restaurants have been added yet!</h3>
 }
-
+<ul>
 @foreach(Restaurant restaurant in Model)
 {
-  <li>@Html.ActionLink($"{restaurant.restaurantName}", "Details", new { id = restaurant.restaurantId }) | @restaurant.Cuisine.cuisineName</li>
+  <li class="listItem">@Html.ActionLink($"{restaurant.restaurantName}", "Details", new { id = restaurant.restaurantId }) | @restaurant.Cuisine.cuisineName</li>
 }
+</ul>
 
-<p>@Html.ActionLink("Add new Restaurant", "Create")</p>
+<p class="cuisine">@Html.ActionLink("Add new Restaurant", "Create")</p>
